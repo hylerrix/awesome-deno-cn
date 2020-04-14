@@ -1,1 +1,133 @@
-# Awesome Deno CN
+# Deno 资源全图谱 · 专注中文版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+## 为什么有这个项目？
+
+Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注于中文技术圈的 Deno 资源列表呼之欲出。
+
+本项目将长期提供更新，愿我们与 Deno 一起成长。同时，本列表也会及时跟进已 180+ Star 的 [@/awesome-deno] 仓库并进行更多的中文化更新。
+
+以下资源 🌟 代表品质推荐（逐步添加中）。由于资源分类的多样性考虑，部分章节内容可能会有所重复。
+
+## 从 Node.js 到 Deno.js
+
+- [《Node.js 的设计缺陷》](http://tinyclouds.org/jsconf2018.pdf)，官方 PDF 演讲稿。
+- [《Design Mistakes in Node》Node 之父 Ryan Dahl 演讲 PPT 中文版 (2018 JS Conf Berlin)](https://zhuanlan.zhihu.com/p/37637923)，发布于 2018-06-03。
+
+## 技术文档
+
+- [deno.land](https://deno.land)：🌟，Deno 官网。
+- [doc.deno.land](https://doc.deno.land)：Deno 官方技术文档。
+- [@denodev/typedoc](https://github.com/denodev/typedoc)：🌟，Deno API 简体中文版。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 核心库
+
+> 更多官方核心库请参考最新的[官方文档](https://deno.land)。
+
+- [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
+- [@denolib/qs](https://github.com/denolib/qs)：具有嵌套支持的 querystring 解析器。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 第三方库
+
+> 更多内容可以看 Deno 官网上的[第三方库列表](https://deno.land/x)
+
+- [@bokuweb/deno-pretty-assert](https://github.com/bokuweb/deno-pretty-assert)：一个 Deno 下的 assertEqual 库。
+- [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
+- [@hashrock/deno-fnparse](https://github.com/hashrock/deno-fnparse)：一个非常简单的 JavaScript 解析器、组合器。
+- [@hashrock/deno-opn](https://github.com/hashrock/deno-opn)：一个可以打开网站、(可执行)文件之类资源的跨平台工具。
+- [@hashrock/deno-fnparse/.../csv](https://github.com/hashrock/deno-fnparse/blob/master/parsers/csv.ts)：一个简单的 CSV 解析器。
+- [@jinjor/deno-playground/.../expressive](https://github.com/jinjor/deno-playground/tree/master/expressive)：一个类似于 Express 的 Deno Web 框架。
+- [@jinjor/deno-playground/.../watch](https://github.com/jinjor/deno-playground/tree/master/watch)：一个文件监听程序。
+- [@keroxp/deno-redis](https://github.com/keroxp/deno-redis)：一个由 Deno 实现的实验性的 Redis 客户端。
+- [@keroxp/deno-ws](https://github.com/keroxp/deno-ws)：一个 Websocket 服务器的实验性实现。
+- [@kitsonk/oak](https://github.com/kitsonk/oak)：一个用于 Deno 网络服务器的中间件框架。
+- [@muhibbudins/deno-yaml](https://github.com/muhibbudins/deno-yaml)：一个使用 Deno 的简单 Yaml 解析器。
+- [@nekobato/deno-xml-parser](https://github.com/nekobato/deno-xml-parser)：一个从 segmentio/xml-parser 移植的 Deno XML 解析器。
+- [@syumai/dejs](https://github.com/syumai/dejs)：一个用于 Deno 的 ejs 模板引擎。
+- [@syumai/dinatra](https://github.com/syumai/dinatra)：🌟，一个类似于 Sinatra 的轻量级 Deno Web 应用程序框架。
+- [@sholladay/pogo](https://github.com/sholladay/pogo)：一个 Deno 服务端框架。
+- [@zhmushan/abc](https://github.com/zhmushan/abc)：一个不错的 Deno Web 框架。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 周边工具
+
+> shell、node、python、go 等
+
+- [@justjavac/vscode-deno](https://github.com/justjavac/vscode-deno)：🌟，VS Code 扩展，使用 typescript-deno-plugin 提供 Deno 支持
+- [@syumai/deno-libs/.../denoget](https://github.com/syumai/deno-libs/tree/master/denoget)：安装可执行的 Deno 脚本。
+- [@syumai/deno-libs/.../denoinit](https://github.com/syumai/deno-libs/tree/master/denoinit)：为 Deno 项目生成有用的文件。
+- [@denopkg/denopkg.com](https://github.com/denopkg/denopkg.com)：在 Deno 项目中直接使用来自 GitHub 代码的简单方法。
+- [@jinjor/elm-live-reload](https://github.com/jinjor/deno-playground/tree/master/elm-live-reload)：一个用 Deno 编写的 Elm Live Reloader。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 单篇文章
+
+- [Deno 并不是下一代 Node.js](https://juejin.im/post/5b14a390e51d4506c1300bbc)，🌟，发布于 2018-06-04。
+- [玩 Deno 遇到问题的解决方案](https://juejin.im/post/5b1245b3f265da6e4c6cf249)，发布于 2018-06-02。
+- [让我们一起来学习别人学不动的 Deno](https://segmentfault.com/a/1190000015151287)，发布于 2018-06-03。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 系统教程
+
+- [Deno 源码贡献指南（英文版）](https://denolib.gitbook.io/guide)，托管于 Gitbook 上。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 技术专栏
+
+- [Deno 开发者社区](https://zhuanlan.zhihu.com/denodev)：知乎专栏，[@justjavac](https://github.com/justjavac) 主导。
+- [Deno 世界](https://zhuanlan.zhihu.com/denoland)：知乎专栏，[@嘤嘤](https://www.zhihu.com/people/yingyingxue) 主导。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 电子资源
+
+> 专注收集公开免费的 PDF、PNG 以及电子书等资源，放置在仓库的 resources 文件夹下。
+
+* [《Node.js 的设计缺陷（英文版）》](./resources/design-mistakes-in-node.pdf)
+* [《Node.js 的设计缺陷（中文版）》](./resources/design-mistakes-in-node-zh.pdf)
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 技术社区
+
+- [Deno Discord](https://discord.gg/TGMHGv6)：🌟，Discord 上的 Deno 官方聊天室，有中文社区。
+- [deno.dev](https://deno.dev)：🌟，开发中，[@justjavac](https://github.com/justjavac) 主导。
+- [denocn.org](https://denocn.org)：🌟，Deno 中文社区，[@manyuanrong](https://github.com/manyuanrong) 主导。
+- [deno.js.cn](https://deno.js.cn)：开发中，[@???]() 主导。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 开源组织
+
+> 重点收集专注于 Deno 的 Github 组织。暂不考虑可能有内容会与“技术社区”栏目重叠的问题。
+
+* [Deno Land](https://github.com/denoland)：Deno 官方 Github 组织。
+* [Deno Dev](https://github.com/denodev)：Deno 第三方组织之一，[@justjavac](https://github.com/justjavac) 主导。
+* [Deno Lib](https://github.com/denolib)：Deno 第三方组织。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 谁在用 Deno？
+
+> 重点收集已经部署在生产环境的应用，欢迎推荐你的案例，逐步完善中。
+
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 其它订阅
+
+- [twitter@deno_land](https://twitter.com/deno_land)：Deno Land 官方推特。
+- ......逐步添加中，欢迎 Fork & PR。
+
+## 关于共建
+
+Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
+
+- [@hylerrix](https://github.com/hylerrix)
+- ......欢迎加入！
+
+本项目未来待做事项大致如下，欢迎讨论：
+
+- [ ] 收集越来越多高质量的 Deno 资源。
+- [ ] 增加 CODE_OF_CONDUCT、CONTRIBUTING、MAINTAINERS 等基础协作文件。
+- [ ] 开发更好看的 UI 页面来展示这个资源列表。
+
+## 开源协议
+
+本项目文档内容均采用 [CC-BY-SA-4.0] 协议进行共享。
