@@ -1,5 +1,7 @@
 # Deno 资源全图谱 · 专注中文版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+![](./assets/logo.png)
+
 ## 为什么有这个项目？
 
 Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注于中文技术圈的 Deno 资源列表呼之欲出。
@@ -27,6 +29,7 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 
 - [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
 - [@denolib/qs](https://github.com/denolib/qs)：具有嵌套支持的 querystring 解析器。
+- [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
 ## 第三方库
@@ -34,7 +37,6 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 > 更多内容可以看 Deno 官网上的[第三方库列表](https://deno.land/x)
 
 - [@bokuweb/deno-pretty-assert](https://github.com/bokuweb/deno-pretty-assert)：一个 Deno 下的 assertEqual 库。
-- [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
 - [@hashrock/deno-fnparse](https://github.com/hashrock/deno-fnparse)：一个非常简单的 JavaScript 解析器、组合器。
 - [@hashrock/deno-opn](https://github.com/hashrock/deno-opn)：一个可以打开网站、(可执行)文件之类资源的跨平台工具。
 - [@hashrock/deno-fnparse/.../csv](https://github.com/hashrock/deno-fnparse/blob/master/parsers/csv.ts)：一个简单的 CSV 解析器。
