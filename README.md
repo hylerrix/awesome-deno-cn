@@ -1,6 +1,6 @@
 # Deno 资源全图谱 · 专注中文版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-![](./assets/logo.png)
+<img src="./assets/logo.png" style="height: 88px; width: 88px;">
 
 ## 为什么有这个项目？
 
