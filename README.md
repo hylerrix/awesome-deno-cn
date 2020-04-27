@@ -6,11 +6,37 @@
 
 Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注于中文技术圈的 Deno 资源列表呼之欲出。
 
-本项目将长期提供更新，愿我们与 Deno 一起成长。同时，本列表也会及时跟进已 180+ Star 的 [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库并进行更多的中文化更新。
+本项目将长期提供更新，愿我们与 Deno 一起成长。同时，本列表也会及时跟进已 1k+ Star 的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 和 180+ Star 的 [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库并进行更多的中文化更新。
 
 以下资源 🌟 代表品质推荐（逐步添加中）。由于资源分类的多样性考虑，部分章节内容可能会有所重复。
 
-## 从 Node.js 到 Deno.js
+<!--
+
+## 独家《Deno 钻研之术》
+
+感谢你的关注，献上我的[《Deno 钻研之术》](https://github.com/hylerrix/deep-into-deno)作为本仓库的独特内容之一。
+
+-->
+
+## 关于共建
+
+本项目未来待做事项大致如下，欢迎讨论：
+
+- [ ] 及时进行内容更新，收集越来越多高质量的 Deno 资源：
+  - [x] 初始化本项目，填充独特的中文版内容。
+  - [x] 2020-04-14 跟进最新的 [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库内容。
+  - [ ] 2020-04-27 跟进最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
+  - [ ] 2020-04-27 跟进最新的 [Deno 官方第三方库列表](https://deno.land/x/) 并进行翻译。
+- [ ] 增加 CODE_OF_CONDUCT、CONTRIBUTING、MAINTAINERS 等基础协作文件，让本项目更为正式和友好。
+- [ ] 介绍独家《Deno 钻研之术》电子书并随着本仓库一起成长（预计五月份开始正式上线）。
+- [ ] 开发更好看的 UI 页面来展示这个资源列表 -> 这份 UI 需要抽离出单个项目并引人到本仓库中。
+
+Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
+
+- [@hylerrix](https://github.com/hylerrix)
+- ......欢迎加入！
+
+## 插曲：从 Node.js 到 Deno.js
 
 - [《Node.js 的设计缺陷》](http://tinyclouds.org/jsconf2018.pdf)，官方 PDF 演讲稿。
 - [《Design Mistakes in Node》Node 之父 Ryan Dahl 演讲 PPT 中文版 (2018 JS Conf Berlin)](https://zhuanlan.zhihu.com/p/37637923)，发布于 2018-06-03。
@@ -18,12 +44,23 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 
 ## 技术文档
 
+### 官方文档
+
+> 包括中文社区的文档
+
 - [deno.land](https://deno.land)：🌟，Deno 官网。
-- [doc.deno.land](https://doc.deno.land)：Deno 官方技术文档。
+- [Deno API TypeDoc](https://deno.land/typedoc/)
+- [doc.deno.land](https://doc.deno.land)：Deno 文档。
+- [Deno Registry](https://deno.land/x/)：Deno 第三方
+
+### 中文社区文档
+
 - [@denodev/typedoc](https://github.com/denodev/typedoc)：🌟，Deno API 简体中文版。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-## 核心库
+## 基础设施
+
+### 核心库
 
 > 更多官方核心库请参考最新的[官方文档](https://deno.land)。
 
@@ -32,7 +69,7 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 - [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-## 第三方库
+### 第三方库
 
 > 更多内容可以看 Deno 官网上的[第三方库列表](https://deno.land/x)
 
@@ -64,11 +101,11 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 - [@jinjor/elm-live-reload](https://github.com/jinjor/deno-playground/tree/master/elm-live-reload)：一个用 Deno 编写的 Elm Live Reloader。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-## 单篇文章
+## 技术教程
+
+### 单篇文章（中文）
 
 > 专注于收集高质量的博客文章，更多内容可以在谷歌/百度上搜索。目前 Deno 文章不多，尽可能多的诺列不设内容质量限制。
-
-中文
 
 - [Deno 运行时入门教程：Node.js 的替代品](http://www.ruanyifeng.com/blog/2020/01/deno-intro.html)，🌟，发布于 2020-01-26。
 - [学得动的 Deno](https://juejin.im/post/5bc8b2166fb9a05d36350ea9)，发布于 2018-10-19。
@@ -78,7 +115,7 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 - [玩 Deno 遇到问题的解决方案](https://juejin.im/post/5b1245b3f265da6e4c6cf249)，发布于 2018-06-02。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-英文
+### 单篇文章（英文）
 
 - [Forget NodeJS! Build native TypeScript applications with Deno 🦖](https://deepu.tech/deno-runtime-for-typescript/)，发布于 2020-02-18。
 - [What’s Deno, and how is it different from Node.js?](https://blog.logrocket.com/what-is-deno/)，发布于 2019-07-09。
@@ -86,19 +123,19 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 - [Ryan Dahl’s Node.js regrets lead to Deno](https://www.infoworld.com/article/3283250/ryan-dahls-nodejs-regrets-lead-to-deno.html)，发布于 2018-06-21。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-## 系列教程
+### 系列文章
 
 - [Deno 源码贡献指南（英文版）](https://denolib.gitbook.io/guide)，托管于 Gitbook 上。
 - [Deno 进阶开发笔记](https://chenshenhai.com/deno_note)。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-## 技术专栏
+### 技术专栏
 
 - [Deno 开发者社区](https://zhuanlan.zhihu.com/denodev)：知乎专栏，[@justjavac](https://github.com/justjavac) 主导。
 - [Deno 世界](https://zhuanlan.zhihu.com/denoland)：知乎专栏，[@嘤嘤](https://www.zhihu.com/people/yingyingxue) 主导。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-## 在线视频
+### 在线视频
 
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
@@ -112,15 +149,17 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 
 ## 技术社区
 
+### 社区列表
+
 - [Deno Discord](https://discord.gg/TGMHGv6)：🌟，Discord 上的 Deno 官方聊天室，有中文社区。
 - [deno.dev](https://deno.dev)：🌟，开发中，[@justjavac](https://github.com/justjavac) 主导。
 - [denocn.org](https://denocn.org)：🌟，Deno 中文社区，[@manyuanrong](https://github.com/manyuanrong) 主导。
 - [deno.js.cn](https://deno.js.cn)：开发中，[@???]() 主导。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-## 开源组织
+### Github 开源组织
 
-> 重点收集专注于 Deno 的 Github 组织。暂不考虑可能有内容会与“技术社区”栏目重叠的问题。
+> 重点收集专注于使用 & 回馈 Deno 生态圈的 Github 组织。暂不考虑可能有内容会与“技术社区”栏目重叠的问题。
 
 * [Deno Land](https://github.com/denoland)：Deno 官方 Github 组织。
 * [Deno Dev](https://github.com/denodev)：Deno 第三方组织之一，[@justjavac](https://github.com/justjavac) 主导。
@@ -137,19 +176,6 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 
 - [twitter@deno_land](https://twitter.com/deno_land)：Deno Land 官方推特。
 - ......逐步添加中，欢迎 Star & Fork & PR。
-
-## 关于共建
-
-Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
-
-- [@hylerrix](https://github.com/hylerrix)
-- ......欢迎加入！
-
-本项目未来待做事项大致如下，欢迎讨论：
-
-- [ ] 收集越来越多高质量的 Deno 资源。
-- [ ] 增加 CODE_OF_CONDUCT、CONTRIBUTING、MAINTAINERS 等基础协作文件。
-- [ ] 开发更好看的 UI 页面来展示这个资源列表。
 
 ## 开源协议
 
