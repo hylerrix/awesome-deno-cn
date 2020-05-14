@@ -11,24 +11,12 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 ### 独特之处
 
 - [x] 长期提供更新，收集越来越多高质量的 Deno 资源，愿我们与 Deno 一起成长。
+- [ ] 随着 Deno 主版本进行版本归档更新。
+- [x] 配套独家[《Deno 钻研之术》](https://github.com/hylerrix/deno-tutorial)电子书并随着本项目一起成长。
 - [ ] 及时跟进已 1k+ Star 的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库。
 - [x] 及时跟进已 180+ Star 的 [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库。
 - [ ] 增加 CODE_OF_CONDUCT、CONTRIBUTING、MAINTAINERS 等基础协作文件，让本项目更为正式和友好。
-- [ ] 介绍独家《Deno 钻研之术》电子书并随着本项目一起成长（预计五月中旬正式上线，尽请关注）。
 - [ ] 开发更好看的 UI 页面来展示这个资源列表 -> 这份 UI 需要抽离出单个项目并引人到本项目中。
-
-<!--
-
-### 《Deno 钻研之术》
-
-感谢你的关注，献上我的[《Deno 钻研之术》](https://github.com/hylerrix/deep-into-deno)作为本项目的独特内容之一。
-
-在 Deno 钻研之术中：
-
-- [ ] 进行博文技术分享，循序渐进了解 Deno
-- [ ] 翻译大量最新的、高质量的 Deno 技术文章。
-
--->
 
 ### 更新日志
 
