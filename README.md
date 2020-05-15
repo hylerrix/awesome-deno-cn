@@ -88,26 +88,26 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 如果你有兴趣帮忙按字母排列下放的列表的话，欢迎 PR！
 
+- [@allain/expect](https://github.com/allain/expect)：在 Deno 中编写 Jest 的助手。
 - [@alosaur/alosaur](https://github.com/alosaur/alosaur)：具有许多装饰器的 Deno Web框架。
 - [@ameerthehacker/cli-spinner](https://github.com/ameerthehacker/cli-spinners)：在执行长任务时在终端中显示微调框。
-- [@axetroy/dvm](https://github.com/axetroy/dvm)：没有运行时相关性的 Deno 版本管理器。
 - [@ameerthehacker/deno-vscode](https://github.com/ameerthehacker/deno-vscode)：利用此扩展利用 VS Code 中内置的 typedef 和 intellisense。
-- [@allain/expect](https://github.com/allain/expect)：在 Deno 中编写 Jest 的助手。
-- [@BoltDoggy/dcc](https://github.com/BoltDoggy/deno)：Deno 清空缓存，在下次运行时重新加载 dep。
-- [@bokuweb/deno-pretty-assert](https://github.com/bokuweb/deno-pretty-assert)：色彩鲜艳的 deno assert 库。
-- [@BoltDoggy/dpm](https://github.com/BoltDoggy/deno#dpm)：Deno 软件包管理器，为 Deno 安装全局命令，比如 Denoget。—— DVM。
+- [@axetroy/dvm](https://github.com/axetroy/dvm)：没有运行时相关性的 Deno 版本管理器。
 - [@BentoumiTech/denox](https://github.com/BentoumiTech/denox)：类似于 package.json 脚本，但在 Deno 上具有权限支持。
+- [@bokuweb/deno-pretty-assert](https://github.com/bokuweb/deno-pretty-assert)：色彩鲜艳的 deno assert 库。
 - [@bokuweb/deno-pretty-assert](https://github.com/bokuweb/deno-pretty-assert)：一个 Deno 下的 assertEqual 库。
-- [@buildondata/postgres](https://github.com/buildondata/deno-postgres)：PostgreSQL 数据库驱动程序。
 - [@bokuweb/wu-diff-js](https://github.com/bokuweb/wu-diff-js)：一个差异库，使用 wu（O（NP））算法计算两个切片之间的差异。
+- [@BoltDoggy/dpm](https://github.com/BoltDoggy/deno#dpm)：Deno 软件包管理器，为 Deno 安装全局命令，比如 Denoget。—— DVM。
+- [@BoltDoggy/dcc](https://github.com/BoltDoggy/deno)：Deno 清空缓存，在下次运行时重新加载 dep。
+- [@buildondata/postgres](https://github.com/buildondata/deno-postgres)：PostgreSQL 数据库驱动程序。
 - [@cacjs/cac](https://github.com/cacjs/cac)：用于构建命令行应用程序的简单但功能强大的框架。
 - [@cardosomarcos/deno-dotenv](https://github.com/cardosomarcos/deno-dotenv)：从.env加载deno项目的环境变量。
 - [@dontlaugh/packer-provisioner-deno](https://github.com/dontlaugh/packer-provisioner-deno)：一个 Packer 插件，可轻松使用 Deno 脚本构建虚拟机映像。
-- [@denopkg/denopkg](https://github.com/denopkg/denopkg.com)：在 Deno 项目中使用 GitHub 上的代码的更简单方法。
+- [@denopkg/denopkg](https://github.com/denopkg/denopkg.com)：在 Deno 项目中使用 GitHub 上的代码的更简单方法。。
+- [@denopkg/denopkg.com](https://github.com/denopkg/denopkg.com)：在 Deno 项目中直接使用来自 GitHub 代码的简单方法。
 - [@denoserverless/http-libs](https://github.com/denoserverless/http-libs)：HTTP 模块和类型。
 - [@denoserverless/jwt](https://github.com/denoserverless/jwt)：auth0/jsonwebtoken 的端口。
 - [@denoserverless/type-fest](https://github.com/denoserverless/type-fest)：基本 TypeScript 类型的集合（sindresorhus 端口/type-fest）。
-- [@denopkg/denopkg.com](https://github.com/denopkg/denopkg.com)：在 Deno 项目中直接使用来自 GitHub 代码的简单方法。
 - [@eliassjogreen/denon](https://github.com/eliassjogreen/denon)：像 Nodemon 的 Deno 库。
 - [@ekaragodin/clone](https://github.com/ekaragodin/clone)：一个方便克隆的简单实用程序。
 - [@eliassjogreen/deno_tokenizer](https://github.com/eliassjogreen/deno_tokenizer)：Deno 的简单标记器。
@@ -125,17 +125,17 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@hayd/deno-docker](https://github.com/hayd/deno-docker)：数个 Docker 镜像。
 - [@hayd/deno-using](https://github.com/hayd/deno-using)：带有 Deno 语句的 Python 样式。
 - [@hayd/deno-globrex](https://github.com/hayd/deno-globrex)：globrex 的端口为 deno，globex 的端口为正则表达式。
-- [@justjavac/dvm](https://github.com/justjavac/dvm)：Deno 版本管理器：管理多个活动的 Deno 版本。
 - [@jinjor/watch](https://github.com/jinjor/deno-watch)：文件观察器（热更新）。
 - [@justjavac/vscode-deno](https://github.com/justjavac/vscode-deno)：🌟，VS Code 扩展，使用 typescript-deno-plugin 提供 Deno 支持。
+- [@justjavac/dvm](https://github.com/justjavac/dvm)：Deno 版本管理器：管理多个活动的 Deno 版本。
+- [@justjavac/typescript-deno-plugin](https://github.com/justjavac/typescript-deno-plugin)：Deno 语言服务插件，在编辑器中的 TypeScript 文件中提供智能感知。
+- [@justjavac/vscode-deno](https://github.com/justjavac/vscode-deno)：VS Code 扩展，使用 typescript-deno-plugin 对 Deno 提供支持。
 - [@jinjor/elm-live-reload](https://github.com/jinjor/deno-playground/tree/master/elm-live-reload)：一个用 Deno 编写的 Elm Live Reloader。
 - [@jcardama/deno-slugify](https://github.com/jcardama/deno_slugify)：Deno 的字符串节流器。
 - [@jinjor/deno-playground/.../expressive](https://github.com/jinjor/deno-playground/tree/master/expressive)：一个类似于 Express 的 Deno Web 框架。
 - [@jinjor/deno-playground/.../watch](https://github.com/jinjor/deno-playground/tree/master/watch)：一个文件监听程序。
 - [@jinjor/deno-playground/.../elm-live-reload](https://github.com/jinjor/deno-playground/tree/master/elm-live-reload)：用 Deno 编写的 Elm Live Reloader。
 - [@jinjor/deno-task-runner](https://github.com/jinjor/deno-task-runner)：像 NPM 脚本一样编写任务。
-- [@justjavac/typescript-deno-plugin](https://github.com/justjavac/typescript-deno-plugin)：Deno 语言服务插件，在编辑器中的 TypeScript 文件中提供智能感知。
-- [@justjavac/vscode-deno](https://github.com/justjavac/vscode-deno)：VS Code 扩展，使用 typescript-deno-plugin 对 Deno 提供支持。
 - [@keroxp/deno-redis](https://github.com/keroxp/deno-redis)：一个由 Deno 实现的实验性的 Redis 客户端。
 - [@keroxp/deno-ws](https://github.com/keroxp/deno-ws)：一个 Websocket 服务器的实验性实现。
 - [@kitsonk/oak](https://github.com/kitsonk/oak)：一个用于 Deno 网络服务器的中间件框架。
