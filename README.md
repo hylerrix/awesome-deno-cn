@@ -2,6 +2,10 @@
 
 <img src="./assets/logo.png" style="height: 88px; width: 88px;">
 
+<!--
+  https://nugine.github.io/deno-manual-cn/
+-->
+
 ## 为什么有这个项目？
 
 Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注于中文技术圈的 Deno 资源列表呼之欲出。
@@ -23,8 +27,10 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 - [x] 2020-04-14 初始化本项目，填充独特的中文版内容。
 - [x] 2020-04-14 跟进最新的 [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库内容。
 - [x] 2020-05-13 新增《Deno 钻研之术》项目，将本项目作为前者的配套项目。
-- [x] 2020-05-14 跟进中文化后大改版的 [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
-- [ ] 2020-05-14 跟进最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
+- [ ] 2020-05-xx 同步最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容（搬运过来）。
+- [ ] 2020-05-xx 翻译最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
+- [ ] 2020-05-xx 跟进中文化后大改版的 [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
+- [ ] 2020-05-xx 全网大量搜索 Deno 中英文资源并入库。
 - [ ] 2020-05-xx 跟进最新的 [Deno 官方第三方库列表](https://deno.land/x/) 并进行翻译。
 - [ ] 2020-06-xx 跟进最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
 
@@ -58,13 +64,24 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 ## 基础设施
 
-### 核心库
+### DenoLand 核心库
 
 > 更多官方核心库请参考最新的[官方文档](https://deno.land)。
+
+- [denoland/deno_std/.../flags](https://github.com/denoland/deno_std/tree/master/flags)：（⚠️ 已归档），基于极简主义的Deno命令行参数解析器。
+- [denoland/deno_std/.../http](https://github.com/denoland/deno_std/tree/master/http)：（⚠️ 已归档），HTTP模块，包括文件服务器。
+- [denoland/deno_std/.../log](https://github.com/denoland/deno_std/tree/master/log)：（⚠️ 已归档），Deno的日志记录模块。
+- [denoland/deno_std/.../path](https://github.com/denoland/deno_std/tree/master/fs/path)：（⚠️ 已归档）Deno Path操作库。
+- [denoland/deno_std/.../textproto](https://github.com/denoland/deno_std/tree/master/textproto)。
+
+### DenoLib
 
 - [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
 - [@denolib/qs](https://github.com/denolib/qs)：具有嵌套支持的 querystring 解析器。
 - [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
+- [camelcase](https://github.com/denolib/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为camelCase：foo-bar→fooBar。
+- [marked](https://github.com/denolib/marked/) - Markdown -> HTML 转换器.
+- [ms](https://github.com/denolib/ms) - 轻松地将各种时间格式转换为毫秒。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
 ### 第三方库
@@ -88,83 +105,68 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@zhmushan/abc](https://github.com/zhmushan/abc)：一个不错的 Deno Web 框架。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
-### 模块（待翻译）
+### 模块（待整理）
 
-__NOTICE__: Deno has a few official modules that could be found at [deno_std](https://deno.land/std/).
-Consider submitting to [the deno.land/x](https://github.com/denoland/deno_website2/blob/master/src/database.json) repository.
+__须知__: Deno 的一些官方模块可以在 [deno_std](https://deno.land/std/) 上找到。可以将你的存储库提交到 [deno.land/x](https://github.com/denoland/deno_website2/blob/master/src/database.json) 中。
 
-- [abc](https://github.com/zhmushan/abc) - A better Deno framework to create web application.
-- [alosaur](https://github.com/alosaur/alosaur) - Alosaur - Deno web framework with many decorators.
-- [bytes_formater](https://github.com/manyuanrong/bytes_formater) - Format bytes (Uint8Array、ArrayBufferView...) output, useful when debugging IO functions.
-- [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
-- [camelcase](https://github.com/denolib/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
-- [colors](https://deno.land/std/fmt/colors.ts) - A basic console color library intended for Deno.
-- [cli-spinner](https://github.com/ameerthehacker/cli-spinners) - Show spinners in the terminal while running long tasks
-- [csv](https://github.com/hashrock/deno-fnparse/blob/master/parsers/csv.ts) - A simple CSV parser.
-- [dcc](https://github.com/BoltDoggy/deno#dcc) - Deno Cache Clean, reloading deps when next running.
-- [dejs](https://github.com/syumai/dejs) - ejs template engine for deno.
-- [denon](https://github.com/eliassjogreen/denon/blob/master/watcher.ts) - A file watcher with an for-await generator
-- [deno_case_style](https://github.com/zekth/deno_case_style) - String validator and formater for different case style. eg: camelCase etc.
-- [deno-checksum](https://github.com/manyuanrong/deno-checksum) - SHA1/MD5 algorithms.
-- [deno-deamon](https://github.com/manyuanrong/deno-deamon) - Make the Deno program run in the background.
+- [alosaur](https://github.com/alosaur/alosaur)：具有许多装饰器的 Deno Web框架。
+- [bytes_formater](https://github.com/manyuanrong/bytes_formater)：格式化字节（Uint8Array，ArrayBufferView ...）输出，在调试 IO 功能时很有用。
+- [cac](https://github.com/cacjs/cac)：用于构建命令行应用程序的简单但功能强大的框架。
+- [colors](https://deno.land/std/fmt/colors.ts)：用于 Deno 的基本控制台颜色库。
+- [cli-spinner](https://github.com/ameerthehacker/cli-spinners)：在执行长任务时在终端中显示微调框。
+- [dcc](https://github.com/BoltDoggy/deno#dcc)：Deno 清空缓存，在下次运行时重新加载 dep。
+- [dejs](https://github.com/syumai/dejs)：edeno 的 ejs 模板引擎。
+- [denon](https://github.com/eliassjogreen/denon/blob/master/watcher.ts)：具有等待生成器的文件监视程序。
+- [deno_case_style](https://github.com/zekth/deno_case_style)：不同大小写样式的字符串验证器和格式化程序，例如 camelCase 等。
+- [deno-checksum](https://github.com/manyuanrong/deno-checksum)：SHA1/MD5 算法.
+- [deno-deamon](https://github.com/manyuanrong/deno-deamon)：使Deno程序在后台运行。
 - deno-dotenv
-    - [pietvanzoen/deno-dotenv](https://github.com/pietvanzoen/deno-dotenv) - Dotenv handling for deno.
-    - [cardosomarcos/deno-dotenv](https://github.com/cardosomarcos/deno-dotenv) - Loads environment variables from .env for deno projects.
-- [deno-express](https://github.com/NMathar/deno-express) - Node Express ported to Deno.
-- [deno-fnparse](https://github.com/hashrock/deno-fnparse) - An extremely simple parser combinator for JavaScript.
-- [deno-globrex](https://github.com/hayd/deno-globrex) - Port of globrex to deno, glob to regular expression.
-- [deno-mysql](https://github.com/manyuanrong/deno_mysql) - MySQL database driver.
-- [deno_mongo](https://github.com/manyuanrong/deno_mongo) - MongoDB database driver.
-- [deno-opn](https://github.com/hashrock/deno-opn) - Opens stuff like websites, files, executables. Cross-platform.
-- [deno-plugin-prepare](https://github.com/manyuanrong/deno-plugin-prepare) - A library for managing deno native plugin dependencies
-- [deno-pretty-assert](https://github.com/bokuweb/deno-pretty-assert) - A colorful assertEqual for deno.
-- [deno-prettystring](https://github.com/OnikurYH/deno-prettystring) - Format, trim and remove extra white spaces between characters from string.
-- [deno_random_interval](https://github.com/zekth/deno_random_interval) - Helper to generate random interval.
-- [deno-redis](https://github.com/keroxp/deno-redis) - An experimental implementation of redis client for deno.
-- [deno-slugify](https://github.com/jcardama/deno_slugify) - A string slugifier for deno.
-- [deno-smtp](https://github.com/manyuanrong/deno-smtp) - A smtp mail sender for deno.
-- [deno_tiny_templates](https://github.com/zekth/deno_tiny_templates) - Template renderer for deno.
-- [deno_tokenizer](https://github.com/eliassjogreen/deno_tokenizer) - A simple tokenizer for deno.
-- [deno-using](https://github.com/hayd/deno-using) - An python-style with statements for deno.
-- [deno-uuid](https://github.com/lucascaro/deno-uuid) - UUID module for deno.
-- [deno-ws](https://github.com/keroxp/deno-ws) - An experimental implementation of websocket server for deno.ts.
-- [deno-xml-parser](https://github.com/nekobato/deno-xml-parser) - Deno XML parser ported from segmentio/xml-parser.
-- [dinatra](https://github.com/syumai/dinatra) - Sinatra like light weight web app framework for deno.
-- [djwt](https://github.com/timonson/djwt) - Make JSON Web Tokens (JWT) on deno based on JWT and JWS specifications.
-- [dso](https://github.com/manyuanrong/dso) - A simple ORM library based on mysql.
-- [evt](https://github.com/garronej/evt) - Type safe replacement for EventEmitter.
-- [expect](https://github.com/allain/expect) - Helpers for writing jest like expect tests in deno.
-- [flags](https://github.com/denoland/deno_std/tree/master/flags) - Command line arguments parser for Deno based on minimist.
-- [gardens](https://github.com/partheseas/gardens) - A useful logging utility for JavaScript everywhere.
-- [gentleRpc](https://github.com/timonson/gentleRpc) - A JSON-RPC 2.0 TypeScript library for deno and the browser.
-- [http](https://github.com/denoland/deno_std/tree/master/http) - HTTP module including a file server.
-- [http-libs](https://github.com/denoserverless/http-libs) - HTTP modules and typings.
-- [jwt](https://github.com/denoserverless/jwt) - Port of auth0/jsonwebtoken.
-- [lazy](https://github.com/luvies/lazy) - A linq-like lazy-evaluation iteration module.
-- [log](https://github.com/denoland/deno_std/tree/master/log) - Logging module for Deno.
-- [marked](https://github.com/denolib/marked/) - Markdown-to-HTML converter.
-- [ms](https://github.com/denolib/ms) - easily convert various time formats to milliseconds.
-- [normalize_diacritics](https://github.com/motss/deno_mod/tree/master/normalize_diacritics) - Remove accents/diacritics in string.
-- [oak](https://github.com/oakserver/oak) - A middleware framework for Deno's net server.
-- [path](https://github.com/denoland/deno_std/tree/master/fs/path) - Deno Path Manipulation Libraries.
-- [pogo](https://github.com/sholladay/pogo) - Server framework for Deno
-- [postgres](https://github.com/buildondata/deno-postgres) - Driver for PostgreSQL database.
-- [qs](https://github.com/denolib/qs) - A querystring parser with nesting support.
-- [sax-ts](https://github.com/Maxim-Mazurok/sax-ts) - SAX-style XML parser ported from [sax-js](https://github.com/isaacs/sax-js)
-- [servest](https://github.com/keroxp/servest) - A progressive HTTP server/router.
-- [sql-builder](https://github.com/manyuanrong/sql-builder) - An sql query builder.
-- [textproto](https://github.com/denoland/deno_std/tree/master/textproto)
-- [type-fest](https://github.com/denoserverless/type-fest) - A collection of essential TypeScript types (port of sindresorhus/type-fest).
-- [watch](https://github.com/jinjor/deno-watch) - A file watcher.
-- [webview](https://github.com/eliassjogreen/deno_webview) - Deno bindings for webview, a tiny library for creating web-based desktop GUIs
-- [wu-diff-js](https://github.com/bokuweb/wu-diff-js) - A diff library to compute differences between two slices using wu(the O(NP)) algorithm.
+  - [pietvanzoen/deno-dotenv](https://github.com/pietvanzoen/deno-dotenv)：Dotenv 处理 deno。
+  - [cardosomarcos/deno-dotenv](https://github.com/cardosomarcos/deno-dotenv)：从.env加载deno项目的环境变量。
+- [deno-express](https://github.com/NMathar/deno-express)：Node Express已移植到Deno。
+- [deno-fnparse](https://github.com/hashrock/deno-fnparse)：一个非常简单的 JavaScript 解析器组合器。
+- [deno-globrex](https://github.com/hayd/deno-globrex)：globrex 的端口为 deno，globex 的端口为正则表达式。
+- [deno-mysql](https://github.com/manyuanrong/deno_mysql)：MySQL 数据库驱动程序。
+- [deno_mongo](https://github.com/manyuanrong/deno_mongo)：MongoDB 数据库驱动程序。
+- [deno-opn](https://github.com/hashrock/deno-opn)：打开网站，文件，可执行文件之类的东西，跨平台。
+- [deno-plugin-prepare](https://github.com/manyuanrong/deno-plugin-prepare)：一个用于管理 Dedeno Native 插件依赖关系的库。
+- [deno-pretty-assert](https://github.com/bokuweb/deno-pretty-assert)：色彩鲜艳的 deno assert 库。
+- [deno-prettystring](https://github.com/OnikurYH/deno-prettystring)：格式化，修剪和删除字符串中字符之间的多余空白。
+- [deno_random_interval](https://github.com/zekth/deno_random_interval)：帮助器生成随机间隔。
+- [deno-redis](https://github.com/keroxp/deno-redis)：Redis Client for Deno 的实验实现。
+- [deno-slugify](https://github.com/jcardama/deno_slugify)：Deno 的字符串节流器。
+- [deno-smtp](https://github.com/manyuanrong/deno-smtp)：SMTP 的 SMTP 邮件发件人。
+- [deno_tiny_templates](https://github.com/zekth/deno_tiny_templates)：Deno 的模板渲染器。
+- [deno_tokenizer](https://github.com/eliassjogreen/deno_tokenizer)：Deno 的简单标记器。
+- [deno-using](https://github.com/hayd/deno-using)：带有 Deno 语句的 Python 样式。
+- [deno-uuid](https://github.com/lucascaro/deno-uuid)：Deno 的 UUID 模块。
+- [deno-ws](https://github.com/keroxp/deno-ws)：Websocket 服务器的实验性实现。
+- [deno-xml-parser](https://github.com/nekobato/deno-xml-parser)：从 segmentio/xml-parser 移植来的 Deno XML 解析器。
+- [djwt](https://github.com/timonson/djwt)：根据 JWT 和 JWS 规范在 Deno 上创建 JSON Web 令牌（JWT）。
+- [dso](https://github.com/manyuanrong/dso)：一个基于 MySQL 的简单 ORM 库。
+- [evt](https://github.com/garronej/evt)：EventEmitter 的安全替代品。
+- [expect](https://github.com/allain/expect)：在 Deno 中编写 Jest 的助手
+- [gardens](https://github.com/partheseas/gardens)：一个无处不在的 JavaScript 记录实用程序。
+- [gentleRpc](https://github.com/timonson/gentleRpc)：用于 Deno 和浏览器的 JSON-RPC 2.0 TypeScript 库。
+- [http-libs](https://github.com/denoserverless/http-libs)：HTTP 模块和类型。
+- [jwt](https://github.com/denoserverless/jwt)：auth0/jsonwebtoken 的端口。
+- [lazy](https://github.com/luvies/lazy)：类似于 linq 的惰性求值迭代模块。
+- [normalize_diacritics](https://github.com/motss/deno_mod/tree/master/normalize_diacritics)：删除字符串中的重音符号/变音符号。
+- [oak](https://github.com/oakserver/oak)：用于 Deno 网络服务器的中间件框架。
+- [postgres](https://github.com/buildondata/deno-postgres)：PostgreSQL 数据库驱动程序。
+- [sax-ts](https://github.com/Maxim-Mazurok/sax-ts)：从 [sax-js](https://github.com/isaacs/sax-js) 移植的SAX风格的XML解析器。
+- [servest](https://github.com/keroxp/servest)：渐进式HTTP服务器/路由器。
+- [sql-builder](https://github.com/manyuanrong/sql-builder)：SQL 查询生成器。
+- [type-fest](https://github.com/denoserverless/type-fest)：基本 TypeScript 类型的集合（sindresorhus 端口/type-fest）。
+- [watch](https://github.com/jinjor/deno-watch)：文件观察器（热更新）。
+- [webview](https://github.com/eliassjogreen/deno_webview)：Webview 的 Deno 绑定，这是一个用于创建基于 Web 的桌面 GUI 的小型库
+- [wu-diff-js](https://github.com/bokuweb/wu-diff-js) - 一个差异库，使用 wu（O（NP））算法计算两个切片之间的差异。
 
 ### 工具（待翻译）
 
 - [clone](https://github.com/ekaragodin/clone) - a simple utility for the convenient clone.
 - [denoget](https://github.com/syumai/denoget) - denoget installs executable deno script.
 - [denoify](https://github.com/garronej/denoify) - For NPM module authors that would like to support Deno but do not want to write and maintain a port.
-- [denoinit](https://github.com/syumai/deno-libs/tree/master/denoinit) - denoinit generates useful files for deno project.
 - [denomander](https://github.com/siokas/denomander) - Deno command-line interfaces inspired from commander.js.
 - [denon](https://github.com/eliassjogreen/denon) - Like Nodemon, but for Deno
 - [denopkg](https://github.com/denopkg/denopkg.com) - An easier way to use code from GitHub in your Deno project.
@@ -265,6 +267,11 @@ Consider submitting to [the deno.land/x](https://github.com/denoland/deno_websit
 - [denocn.org](https://denocn.org)：🌟，Deno 中文社区，[@manyuanrong](https://github.com/manyuanrong) 主导。
 - [deno.js.cn](https://deno.js.cn)：开发中，[@???]() 主导。
 - ......逐步添加中，欢迎 Star & Fork & PR。
+
+### 讨论热帖
+
+* Deno 1.0 https://v2ex.com/t/671449
+* 看了 deno, 感觉 ts 前景不可估量啊，https://www.v2ex.com/t/650730
 
 ### Github 开源组织
 
