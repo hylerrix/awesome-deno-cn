@@ -78,7 +78,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@denolib/qs](https://github.com/denolib/qs)：具有嵌套支持的 querystring 解析器。
 - [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
 - [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为camelCase：foo-bar→fooBar。
-- [@denolib/marked](https://github.com/denolib/marked/)：Markdown -> HTML 转换器.
+- [@denolib/marked](https://github.com/denolib/marked/)：Markdown -> HTML 转换器。
 - [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
@@ -155,7 +155,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@manyuanrong/deno-mysql](https://github.com/manyuanrong/deno_mysql)：MySQL 数据库驱动程序。
 - [@manyuanrong/deno_mongo](https://github.com/manyuanrong/deno_mongo)：MongoDB 数据库驱动程序。
 - [@manyuanrong/deno-plugin-prepare](https://github.com/manyuanrong/deno-plugin-prepare)：一个用于管理 Dedeno Native 插件依赖关系的库。
-- [@manyuanrong/deno-checksum](https://github.com/manyuanrong/deno-checksum)：SHA1/MD5 算法.
+- [@manyuanrong/deno-checksum](https://github.com/manyuanrong/deno-checksum)：SHA1/MD5 算法。
 - [@manyuanrong/deno-deamon](https://github.com/manyuanrong/deno-deamon)：使Deno程序在后台运行。
 - [@manyuanrong/bytes_formater](https://github.com/manyuanrong/bytes_formater)：格式化字节（Uint8Array，ArrayBufferView ...）输出，在调试 IO 功能时很有用。
 - [@motss/deno_mod/.../normalize_diacritics](https://github.com/motss/deno_mod/tree/master/normalize_diacritics)：删除字符串中的重音符号/变音符号。
@@ -238,8 +238,8 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 > 专注收集公开免费的 PDF、PNG 以及电子书等资源，放置在本项目的 resources 文件夹下。
 
-* [《Node.js 的设计缺陷（英文版）》](./resources/design-mistakes-in-node.pdf)
-* [《Node.js 的设计缺陷（中文版）》](./resources/design-mistakes-in-node-zh.pdf)
+* [《Node.js 的设计缺陷（英文版）》](./resources/design-mistakes-in-node.pdf)。
+* [《Node.js 的设计缺陷（中文版）》](./resources/design-mistakes-in-node-zh.pdf)。
 - ......逐步添加中，欢迎 Star & Fork & PR。
 
 ## 技术社区
