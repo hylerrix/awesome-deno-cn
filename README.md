@@ -2,6 +2,44 @@
 
 <img src="./assets/logo.png" style="height: 88px; width: 88px;">
 
+- [为什么有这个项目？](#为什么有这个项目？)
+  - [独特之处](#独特之处)
+  - [更新日志](#更新日志)
+  - [贡献者](#贡献者)
+- [前言：从 Node.js 到 Deno.js](#前言：从-Node.js-到-Deno.js)
+- [技术文档](#技术文档)
+  - [官方文档](#官方文档)
+  - [中文社区文档](#中文社区文档)
+- [基础设施](#基础设施)
+  - [DenoLand 核心库](#DenoLand-核心库)
+  - [Deno 周边社区库](#Deno-周边社区库)
+  - [第三方库](#第三方库)
+  - [在线沙箱](#在线沙箱)
+  - [Demo](#Demo)
+- [技术教程](#技术教程)
+  - [演讲稿（中文）](#演讲稿（中文）)
+  - [演讲稿（英文）](#演讲稿（英文）)
+  - [单篇文章（中文）](#单篇文章（中文）)
+  - [单篇文章（英文）](#单篇文章（英文）)
+  - [翻译文章（中文）](#翻译文章（中文）)
+  - [系列文章（中文）](#系列文章（中文）)
+  - [系列文章（英文）](#系列文章（英文）)
+  - [技术专栏（中文）](#技术专栏（中文）)
+  - [技术专栏（英文）](#技术专栏（英文）)
+  - [在线视频（中文）](#在线视频（中文）)
+  - [在线视频（英文）](#在线视频（英文）)
+- [电子资源](#电子资源)
+- [技术社区](#技术社区)
+  - [社区列表（全网）](#社区列表（全网）)
+  - [讨论热帖（中文）](#讨论热帖（中文）)
+  - [讨论热帖（英文）](#讨论热帖（英文）)
+  - [Github 开源组织](#Github-开源组织)
+- [谁在用 Deno？](#谁在用-Deno？)
+- [其它订阅](其它订阅)
+  - [新闻媒体（英文）](#新闻媒体（英文）)
+  - [社交媒体（英文）](#社交媒体（英文）)
+- [开源协议](#开源协议)
+
 ## 为什么有这个项目？
 
 Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注于中文技术圈的 Deno 资源列表呼之欲出。
@@ -13,21 +51,23 @@ Deno v1.0 将于 2020 年 05 月 13 日发布 v1.0 正式版本，一个专注�
 - [x] 长期提供更新，收集越来越多高质量的 Deno 资源，愿我们与 Deno 一起成长。
 - [ ] 随着 Deno 主版本进行版本归档更新。
 - [x] 配套独家[《Deno 钻研之术》](https://github.com/hylerrix/deno-tutorial)电子书并随着本项目一起成长。
-- [ ] 及时跟进已 1k+ Star 的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库。
-- [x] 及时跟进已 180+ Star 的 [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno-cn) 仓库。
+- [x] 及时跟进 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库。
+- [x] 及时跟进的 [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库。
 - [ ] 增加 CODE_OF_CONDUCT、CONTRIBUTING、MAINTAINERS 等基础协作文件，让本项目更为正式和友好。
 - [ ] 开发更好看的 UI 页面来展示这个资源列表 -> 这份 UI 需要抽离出单个项目并引人到本项目中。
 
 ### 更新日志
 
 - [x] 2020-04-14 初始化本项目，填充独特的中文版内容。
-- [x] 2020-04-14 跟进最新的 [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库内容。
+- [x] 2020-04-14 跟进最新的（180+ Star） [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库内容。
 - [x] 2020-05-13 新增《Deno 钻研之术》项目，将本项目作为前者的配套项目。
 - [x] 2020-05-14 同步最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
-- [ ] 2020-05-xx 跟进中文化后大改版的 [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
+- [x] 2020-05-17 跟进中文化后大改版的（200+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
 - [ ] 2020-05-xx 全网大量搜索 Deno 中英文资源并入库。
+- [ ] 2020-05-xx 发布本仓库的第一个 v1.0 主版本，并收录在《Deno 钻研之术》第二篇中。
 - [ ] 2020-05-xx 跟进最新的 [Deno 官方第三方库列表](https://deno.land/x/) 并进行翻译。
-- [ ] 2020-06-xx 跟进最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
+- [ ] 2020-06-xx 全网大量搜索 Deno 中英文资源并入库。
+- [ ] 2020-06-xx 跟进最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 和 [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
 
 ### 贡献者
 
@@ -200,6 +240,33 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 ## 技术教程
 
+### 演讲稿（中文）
+
+- ...逐步添加中，欢迎 Star & Fork & PR。
+
+### 演讲稿（英文）
+
+- [Ryan Dahl - 我为Node.js感到遗憾的10件事 | JSConf EU 2018](https://www.youtube.com/watch?v=M3BM9TB-8yA)
+  - [演讲稿](https://tinyclouds.org/jsconf2018.pdf)
+- [Ryan Dahl - Deno, 新的服务器端运行时 | JSDC 2018#A01](https://www.youtube.com/watch?v=FlTG0UXRAkE)
+  - [演讲稿](https://tinyclouds.org/deno_jsdc.pptx)
+- [Ryan Dahl - Deno, 一种新的JavaScript方法 | JS Fest 2019 Spring](https://www.youtube.com/watch?v=z6JRlx5NC9E)
+  - [演讲稿](https://www.slideshare.net/JSFestUA/js-fest-2019-ryan-dahl-deno-a-new-way-to-javascript)
+- [Rafał Pocztarski — 从Node.js到Deno-使用V8和Rust构建的JavaScript / TypeScript运行时[EN]](https://www.youtube.com/watch?v=Aib1OZLy0_c)
+  - [演讲稿](https://gitpitch.com/rsp/ntd/ntd?utm_campaign=Deno%20Newsletter#/)
+- [Ryan Dahl: JavaScript和TypeScript的安全运行时 | js.la April 2019](https://www.youtube.com/watch?v=RAmqgbv247s)
+  - [演讲稿](https://docs.google.com/presentation/d/1CSQVTeH5tFzE4AZVXIpx9Xwew5YS-gxJZ03eRFtNeIc/edit)
+- [Ryan Dahl: Deno, 一种新的JavaScript方法 | HolyJS 2019 Piter](https://www.youtube.com/watch?v=HjdJzNoT_qg)
+  - [演讲稿](https://docs.google.com/presentation/d/1BjvZx5S8noVfFINptH4jfKfqh9jB9nXlFC0I3oIDtg4/edit)
+- [Rafał Pocztarski - 什么是Deno？ 2020年代用于现代JavaScript和TypeScript后端的新运行时 | Deno Warsaw](https://www.youtube.com/watch?v=aI5A9zvYSjk)
+  - [演讲稿](https://gitpitch.com/rsp/wid/wid)
+- [Michał Sabiniarz - 如何为Deno做贡献 | Deno Warsaw](https://www.youtube.com/watch?v=LAtjnKLbPpw)
+  - [演讲稿](https://docs.google.com/presentation/d/1rETgslJS1ks4EihzLpUI3sS_zI46YxAOuQ5B1Z_k1mY/edit?usp=sharing)
+- [Bartek Iwańczuk - Deno内部是如何构建现代运行时 | Deno Warsaw](https://www.youtube.com/watch?v=qt7fbmypAFk)
+  - [演讲稿](https://docs.google.com/presentation/d/1LYNGpyjx9PemL-P__7hVC8mSqkX-jL8VQLMhCRehy00/edit?usp=sharing)
+- [Ryan Dahl & Kitson Kelly:  Deno是一种新的JavaScript方法 | TSConf 2019](https://www.youtube.com/watch?v=1gIiZfSbEAE)
+- ...逐步添加中，欢迎 Star & Fork & PR。
+
 ### 单篇文章（中文）
 
 > 专注于收集高质量的博客文章，更多内容可以在谷歌/百度上搜索。目前 Deno 文章不多，尽可能多的诺列不设内容质量限制。
@@ -211,14 +278,32 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [让我们一起来学习别人学不动的 Deno](https://segmentfault.com/a/1190000015151287)：发布于 2018-06-03。
 - [快速了解 deno 目前的 API](https://zhuanlan.zhihu.com/p/37569396)：发布于 2018-06-03。
 - [玩 Deno 遇到问题的解决方案](https://juejin.im/post/5b1245b3f265da6e4c6cf249)：发布于 2018-06-02。
+
+- [使用 Deno 和 Visual Studio Code 进行开发](https://medium.com/@kitsonk/develop-with-deno-and-visual-studio-code-225ce7c5b1ba)
+- [关于 Deno（JavaScript / TypeScript 运行时）的初步思考](https://43081j.com/2019/01/first-look-at-deno)
+- [Deno 入门教程](https://dev.to/wuz/getting-started-with-deno-e1m)
+- [什么是 Deno，它与 Node.js 有什么不同？](https://dev.to/bnevilleoneill/what-s-deno-and-how-is-it-different-from-node-js-366g)
+- [使用 Deno 编写一个小型 API](https://dev.to/kryz/write-a-small-api-using-deno-1cl0)
+- [使用 Architect 或 SAM 的 AWS Lambda 上的 Deno](https://blog.begin.com/deno-runtime-support-for-architect-805fcbaa82c3)
+- [Deno 简介 - NodeJS 杀手](https://adarshron.com/introducing-deno)
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ### 单篇文章（英文）
 
+- [Why I Believe Deno is a Step in the Wrong Direction for JavaScript Runtime Environments](https://www.freecodecamp.org/news/why-deno-is-a-wrong-step-in-the-future/)：发布于 2020-05-14。
+- [The Deno Handbook: A TypeScript Runtime Tutorial with Code Examples](https://www.freecodecamp.org/news/the-deno-handbook/)：发布于 2020-05-12。
+- [Deno 1.0: What you need to know](https://blog.logrocket.com/deno-1-0-what-you-need-to-know/)：发布于 2020-05-06。
 - [Forget NodeJS! Build native TypeScript applications with Deno 🦖](https://deepu.tech/deno-runtime-for-typescript/)：发布于 2020-02-18。
 - [What’s Deno, and how is it different from Node.js?](https://blog.logrocket.com/what-is-deno/)：发布于 2019-07-09。
 - [What is Deno? A ‘better’ Node.js](https://www.infoworld.com/article/3529779/what-is-deno-a-better-nodejs.html)：发布于 2020-02-28。
 - [Ryan Dahl’s Node.js regrets lead to Deno](https://www.infoworld.com/article/3283250/ryan-dahls-nodejs-regrets-lead-to-deno.html)：发布于 2018-06-21。
+- ...逐步添加中，欢迎 Star & Fork & PR。
+
+### 翻译文章（中文）
+
+> 这里专门抽来出来中文文章中，是翻译自其它语言（如英语）的文章。
+
+- [Deno 1.0 即将发布，你需要知道的都在这里了](https://mp.weixin.qq.com/s/YZ39X_-nij-8Hl8vwsFBJA)：原文发布于 2020-05-06 日。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ### 系列文章（中文）
@@ -295,6 +380,12 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ## 其它订阅
+
+### 新闻媒体（英文）
+
+- [Deno 新闻推送](https://deno.news)
+
+### 社交媒体（英文）
 
 - [twitter@deno_land](https://twitter.com/deno_land)：Deno Land 官方推特。
 - ...逐步添加中，欢迎 Star & Fork & PR。
