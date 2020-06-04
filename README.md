@@ -225,7 +225,6 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@partheseas/gardens](https://github.com/partheseas/gardens)：一个无处不在的 JavaScript 记录实用程序。
 - [@syumai/dejs](https://github.com/syumai/dejs)：一个用于 Deno 的 ejs 模板引擎。
 - [@syumai/dinatra](https://github.com/syumai/dinatra)：🌟，一个类似于 Sinatra 的轻量级 Deno Web 应用程序框架。
-- [@syumai/dejs](https://github.com/syumai/dejs)：edeno 的 ejs 模板引擎。
 - [@sholladay/pogo](https://github.com/sholladay/pogo)：一个 Deno 服务端框架。
 - [@syumai/denoget](https://github.com/syumai/denoget)：denoget 安装可执行的 deno 脚本。
 - [@syumai/deno-libs/.../denoget](https://github.com/syumai/deno-libs/tree/master/denoget)：安装可执行的 Deno 脚本。
