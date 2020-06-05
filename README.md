@@ -58,7 +58,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 ### 更新日志
 
 - [x] 2020-04-14 初始化本项目，填充独特的中文版内容。
-- [x] 2020-04-14 跟进最新的（180+ Star） [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库内容。
+- [x] 2020-04-14 跟进最新的（180+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno) 仓库内容。
 - [x] 2020-05-13 新增《Deno 钻研之术》项目，将本项目作为前者的配套项目。
 - [x] 2020-05-14 同步最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
 - [x] 2020-05-17 跟进中文化后大改版的（200+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
@@ -100,7 +100,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 ### DenoLand 核心库
 
-> 更多的官方模块可以在 [deno_std](https://deno.land/std/) 上找到，目前版本 0.52.0。
+> 更多的官方模块可以在 [deno_std](https://deno.land/std/) 上找到，目前版本 0.56.0。
 
 - [deno/std/archive](https://deno.land/std/archive)。
 - [deno/std/async](https://deno.land/std/async)。
@@ -256,6 +256,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 - deno-play.app：（⚠ 证书问题）。
 - [deno.town](https://deno.town/)：在线执行 Deno 代码。
+- [REPL](https://repl.it/languages/deno): 在线REPL
 
 ### Demo
 
