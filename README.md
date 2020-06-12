@@ -92,7 +92,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ### 中文社区文档
-- [denolang.cn Deno中文网](https://denolang.cn)🌟
+- [denolang.cn](https://denolang.cn)：🌟，Deno中文网
 - [Deno中文手册](https://denolang.cn/manual)🌟
 - [@denodev/typedoc](https://github.com/denodev/typedoc)：🌟，Deno API 简体中文版。
 - ...逐步添加中，欢迎 Star & Fork & PR。
