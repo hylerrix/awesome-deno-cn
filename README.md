@@ -65,7 +65,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 ### 更新日志
 
 - [x] 2020-04-14 初始化本项目，填充独特的中文版内容。
-- [x] 2020-04-14 跟进最新的（180+ Star） [@olivewind/awesome-deno](https://github.com/olivewind/awesome-deno) 仓库内容。
+- [x] 2020-04-14 跟进最新的（180+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno) 仓库内容。
 - [x] 2020-05-13 新增《Deno 钻研之术》项目，将本项目作为前者的配套项目。
 - [x] 2020-05-14 同步最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
 - [x] 2020-05-17 跟进中文化后大改版的（200+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
@@ -99,7 +99,8 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ### 中文社区文档
-
+- [denolang.cn](https://denolang.cn)：🌟，Deno中文网
+- [denolang.cn/manual](https://denolang.cn/manual)：🌟，Deno中文手册
 - [@denodev/typedoc](https://github.com/denodev/typedoc)：🌟，Deno API 简体中文版。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
@@ -107,7 +108,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 ### DenoLand 核心库
 
-> 更多的官方模块可以在 [deno_std](https://deno.land/std/) 上找到，目前版本 0.52.0。
+> 更多的官方模块可以在 [deno_std](https://deno.land/std/) 上找到，目前版本 0.56.0。
 
 - [deno/std/archive](https://deno.land/std/archive)。
 - [deno/std/async](https://deno.land/std/async)。
@@ -170,6 +171,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@cacjs/cac](https://github.com/cacjs/cac)：用于构建命令行应用程序的简单但功能强大的框架。
 - [@cardosomarcos/deno-dotenv](https://github.com/cardosomarcos/deno-dotenv)：从.env加载deno项目的环境变量。
 - [@dontlaugh/packer-provisioner-deno](https://github.com/dontlaugh/packer-provisioner-deno)：一个 Packer 插件，可轻松使用 Deno 脚本构建虚拟机映像。
+- [@johannlai/doa](https://github.com/JohannLai/doa)：🌟一个移植自 koa 的 Deno web 框架 doa。
 - [@eliassjogreen/denon](https://github.com/eliassjogreen/denon)：像 Nodemon 的 Deno 库。
 - [@ekaragodin/clone](https://github.com/ekaragodin/clone)：一个方便克隆的简单实用程序。
 - [@eliassjogreen/deno_tokenizer](https://github.com/eliassjogreen/deno_tokenizer)：Deno 的简单标记器。
@@ -232,7 +234,6 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@partheseas/gardens](https://github.com/partheseas/gardens)：一个无处不在的 JavaScript 记录实用程序。
 - [@syumai/dejs](https://github.com/syumai/dejs)：一个用于 Deno 的 ejs 模板引擎。
 - [@syumai/dinatra](https://github.com/syumai/dinatra)：🌟，一个类似于 Sinatra 的轻量级 Deno Web 应用程序框架。
-- [@syumai/dejs](https://github.com/syumai/dejs)：edeno 的 ejs 模板引擎。
 - [@sholladay/pogo](https://github.com/sholladay/pogo)：一个 Deno 服务端框架。
 - [@syumai/denoget](https://github.com/syumai/denoget)：denoget 安装可执行的 deno 脚本。
 - [@syumai/deno-libs/.../denoget](https://github.com/syumai/deno-libs/tree/master/denoget)：安装可执行的 Deno 脚本。
@@ -263,6 +264,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 - deno-play.app：（⚠ 证书问题）。
 - [deno.town](https://deno.town/)：在线执行 Deno 代码。
+- [REPL](https://repl.it/languages/deno): 在线REPL
 
 ### Demo
 
@@ -433,4 +435,8 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 ## 开源协议
 
+<<<<<<< HEAD
 本项目文档内容均采用 [CC-BY-SA-4.0](./LICENSE) 协议进行共享。
+=======
+本项目文档内容均采用 [CC-BY-SA-4.0](./LICENSE) 协议进行共享。
+>>>>>>> 554214da31c2aea03ad8a8fee282636d48a2c209
