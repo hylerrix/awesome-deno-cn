@@ -2,43 +2,50 @@
 
 <img src="./assets/logo.png" style="height: 88px; width: 88px;">
 
-- [为什么有这个项目？](#为什么有这个项目？)
-  - [独特之处](#独特之处)
-  - [更新日志](#更新日志)
-  - [贡献者](#贡献者)
-- [前言：从 Node.js 到 Deno.js](#前言：从-Node.js-到-Deno.js)
-- [技术文档](#技术文档)
-  - [官方文档](#官方文档)
-  - [中文社区文档](#中文社区文档)
-- [基础设施](#基础设施)
-  - [DenoLand 核心库](#DenoLand-核心库)
-  - [Deno 周边社区库](#Deno-周边社区库)
-  - [第三方库](#第三方库)
-  - [在线沙箱](#在线沙箱)
-  - [Demo](#Demo)
-- [技术教程](#技术教程)
-  - [演讲稿（中文）](#演讲稿（中文）)
-  - [演讲稿（英文）](#演讲稿（英文）)
-  - [单篇文章（中文）](#单篇文章（中文）)
-  - [单篇文章（英文）](#单篇文章（英文）)
-  - [翻译文章（中文）](#翻译文章（中文）)
-  - [系列文章（中文）](#系列文章（中文）)
-  - [系列文章（英文）](#系列文章（英文）)
-  - [技术专栏（中文）](#技术专栏（中文）)
-  - [技术专栏（英文）](#技术专栏（英文）)
-  - [在线视频（中文）](#在线视频（中文）)
-  - [在线视频（英文）](#在线视频（英文）)
-- [电子资源](#电子资源)
-- [技术社区](#技术社区)
-  - [社区列表（全网）](#社区列表（全网）)
-  - [讨论热帖（中文）](#讨论热帖（中文）)
-  - [讨论热帖（英文）](#讨论热帖（英文）)
-  - [Github 开源组织](#Github-开源组织)
-- [谁在用 Deno？](#谁在用-Deno？)
-- [其它订阅](其它订阅)
-  - [新闻媒体（英文）](#新闻媒体（英文）)
-  - [社交媒体（英文）](#社交媒体（英文）)
-- [开源协议](#开源协议)
+<!--
+https://github.com/denorg
+https://github.com/denodep/dep
+-->
+
+- [Deno 资源全图谱 · 专注中文版 ![Awesome](https://github.com/sindresorhus/awesome)](#deno-资源全图谱--专注中文版-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
+  - [为什么有这个项目？](#为什么有这个项目)
+    - [独特之处](#独特之处)
+    - [更新日志](#更新日志)
+    - [贡献者](#贡献者)
+  - [前言：从 Node.js 到 Deno.js](#前言从-nodejs-到-denojs)
+  - [技术文档](#技术文档)
+    - [官方文档](#官方文档)
+    - [中文社区文档](#中文社区文档)
+  - [基础设施](#基础设施)
+    - [DenoLand 核心库](#denoland-核心库)
+    - [Deno 周边社区库](#deno-周边社区库)
+    - [第三方库](#第三方库)
+    - [底层生态](#底层生态)
+    - [在线沙箱](#在线沙箱)
+    - [Demo](#demo)
+  - [技术教程](#技术教程)
+    - [演讲稿（中文）](#演讲稿中文)
+    - [演讲稿（英文）](#演讲稿英文)
+    - [单篇文章（中文）](#单篇文章中文)
+    - [单篇文章（英文）](#单篇文章英文)
+    - [翻译文章（中文）](#翻译文章中文)
+    - [系列文章（中文）](#系列文章中文)
+    - [系列文章（英文）](#系列文章英文)
+    - [技术专栏（中文）](#技术专栏中文)
+    - [技术专栏（英文）](#技术专栏英文)
+    - [在线视频（中文）](#在线视频中文)
+    - [在线视频（英文）](#在线视频英文)
+  - [电子资源](#电子资源)
+  - [技术社区](#技术社区)
+    - [社区列表（全网）](#社区列表全网)
+    - [讨论热帖（中文）](#讨论热帖中文)
+    - [讨论热帖（英文）](#讨论热帖英文)
+    - [Github 开源组织](#github-开源组织)
+  - [谁在用 Deno？](#谁在用-deno)
+  - [其它订阅](#其它订阅)
+    - [新闻媒体（英文）](#新闻媒体英文)
+    - [社交媒体（英文）](#社交媒体英文)
+  - [开源协议](#开源协议)
 
 ## 为什么有这个项目？
 
@@ -244,12 +251,12 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 > Deno 本身依赖的技术的清单库
 
-- [TypeScript](https://github.com/dzharii/awesome-typescript)。
-- [TypeScript](https://github.com/semlinker/awesome-typescript)。
-- [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)。
-- [Node.js](https://github.com/sindresorhus/awesome-nodejs)。
-- [Awesome Go](https://github.com/avelino/awesome-go)。
-- [Awesome Go](https://github.com/jobbole/awesome-go-cn)：中文版。
+- [@dzharii/awesome-typeScript](https://github.com/dzharii/awesome-typescript)。
+- [@semlinker/awesome-typeScript](https://github.com/semlinker/awesome-typescript)。
+- [@rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)。
+- [@sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)。
+- [@avelino/awesome-go](https://github.com/avelino/awesome-go)。
+- [@jobbole/awesome-go-cn](https://github.com/jobbole/awesome-go-cn)：中文版。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ### 在线沙箱
