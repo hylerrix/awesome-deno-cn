@@ -6,6 +6,43 @@
   "commit": false,
   "contributors": [
     {
+      "login": "hylerrix",
+      "name": "hylerrix",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19285461?v=4",
+      "profile": "https://github.com/hylerrix",
+      "contributions": [
+        "ideas",
+        "doc"
+      ]
+    },
+    {
+      "login": "JohannLai",
+      "name": "JohannLai",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10769405?v=4",
+      "profile": "https://github.com/JohannLai",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "champkeh",
+      "name": "champ",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7316006?v=4",
+      "profile": "https://github.com/champkeh",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "18510047382",
+      "name": "Bd999",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/45157599?v=4",
+      "profile": "https://github.com/18510047382",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
       "login": "youngjuning",
       "name": "杨俊宁",
       "avatar_url": "https://avatars2.githubusercontent.com/u/13204332?v=4",
@@ -20,5 +57,6 @@
   "projectOwner": "hylerrix",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "none"
 }
