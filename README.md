@@ -1,4 +1,7 @@
 # Deno 资源全图谱 · 专注中文版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img src="./assets/logo.png" style="height: 88px; width: 88px;">
 
@@ -444,3 +447,22 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 ## 开源协议
 
 本项目文档内容均采用 [CC-BY-SA-4.0](./LICENSE) 协议进行共享。
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://youngjuning.js.org"><img src="https://avatars2.githubusercontent.com/u/13204332?v=4" width="100px;" alt=""/><br /><sub><b>杨俊宁</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=youngjuning" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
