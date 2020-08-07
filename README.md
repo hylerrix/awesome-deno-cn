@@ -4,7 +4,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-<img src="./assets/logo.png" style="height: 88px; width: 88px;">
+<img src="http://qiniu.ningo.cloud/deno/awesome-deno-cn-logo.png" style="height: 88px; width: 88px;">
 
 > 仓库目录可以使用 Github Chrome 插件来浏览。
 
@@ -442,14 +442,16 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 - [twitter@deno_land](https://twitter.com/deno_land)：Deno Land 官方推特。
 - ...逐步添加中，欢迎 Star & Fork & PR。
+
+## 番外篇
   
-## 番外：从 Node.js 到 Deno.js
+### 从 Node.js 到 Deno.js
 
 - [《Node.js 的设计缺陷》](http://tinyclouds.org/jsconf2018.pdf)：官方 PDF 演讲稿。
 - [《Design Mistakes in Node》Node 之父 Ryan Dahl 演讲 PPT 简中版 (2018 JS Conf Berlin)](https://zhuanlan.zhihu.com/p/37637923)：发布于 2018-06-03。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 番外：Deno 依赖的技术清单
+### Deno 依赖的技术清单
 
 > Deno 本身依赖的技术的清单库。
 
