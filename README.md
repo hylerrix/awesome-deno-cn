@@ -241,6 +241,7 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 - [@siokas/denomander](https://github.com/siokas/denomander)：Deno 命令行界面的灵感来自 commander.js。
 - [@timonson/djwt](https://github.com/timonson/djwt)：根据 JWT 和 JWS 规范在 Deno 上创建 JSON Web 令牌（JWT）。
 - [@timonson/gentleRpc](https://github.com/timonson/gentleRpc)：用于 Deno 和浏览器的 JSON-RPC 2.0 TypeScript 库。
+- [@youngjuning/duck](https://github.com/youngjuning/duck): 一个简单的扫描controller并自动注册路由的中间件。
 - [@zhmushan/abc](https://github.com/zhmushan/abc)：一个不错的 Deno Web 框架。
 - [@zekth/deno_case_style](https://github.com/zekth/deno_case_style)：不同大小写样式的字符串验证器和格式化程序，例如 camelCase 等。
 - [@zekth/deno_random_interval](https://github.com/zekth/deno_random_interval)：帮助器生成随机间隔。
