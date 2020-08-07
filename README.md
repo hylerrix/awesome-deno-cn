@@ -437,20 +437,9 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [twitter@deno_land](https://twitter.com/deno_land)：Deno Land 官方推特。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
+## 贡献者 ✨
 
-### 贡献者
-
-Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
-
-
-
-## 开源协议
-
-本项目文档内容均采用 [CC-BY-SA-4.0](./LICENSE) 协议进行共享。
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+感谢如下贡献者的贡献 ([emoji key](https://allcontributors.org/docs/en/emoji-key))：
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -465,4 +454,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+本项目贡献者列表遵循 [all-contributors](https://github.com/all-contributors/all-contributors) 规范。欢迎你的参与！
+
+## 开源协议
+
+本项目文档内容均采用 [CC-BY-SA-4.0](./LICENSE) 协议进行共享。
