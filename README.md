@@ -5,6 +5,14 @@
 <!--
 https://github.com/denorg
 https://github.com/denodep/dep
+https://nest.land/
+为什么有这个项目？
+  提供解决方案推荐：Web 开发 Oak + MongoDB + GraphQL 推荐方案
+
+https://juejin.im/tag/deno
+https://github.com/youngjuning/deno-oak-mongo-demo
+
+针对官网每个子项目，看看有没有对应的本土项目
 -->
 
 - [Deno 资源全图谱 · 专注中文版 ![Awesome](https://github.com/sindresorhus/awesome)](#deno-资源全图谱--专注中文版-img-srchttpscdnrawgitcomsindresorhusawesomed7305f38d29fed78fa85652e3a63e154dd8e8829mediabadgesvg-altawesome)
@@ -435,8 +443,4 @@ Deno 生态正在完善中，期待你的贡献，以下是贡献者列表。
 
 ## 开源协议
 
-<<<<<<< HEAD
 本项目文档内容均采用 [CC-BY-SA-4.0](./LICENSE) 协议进行共享。
-=======
-本项目文档内容均采用 [CC-BY-SA-4.0](./LICENSE) 协议进行共享。
->>>>>>> 554214da31c2aea03ad8a8fee282636d48a2c209
