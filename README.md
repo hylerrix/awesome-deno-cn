@@ -219,6 +219,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [vscode-deno](https://github.com/denoland/vscode_deno)：VS Code 扩展，使用 TypeScript Deno 语言服务插件提供 Deno 支持。
 - [Update Deno](https://github.com/marketplace/actions/update-deno)：Github Action，它将具有最新 Deno 版本的文件放入您的存储库。
 - [denofn-selfhosted](https://github.com/denofn/denofn-selfhosted)：使用 Deno 和 Docker 构建的自托管 Deno 函数。
+- [cloudbase-framework](https://github.com/TencentCloudBase/cloudbase-framework/tree/master/packages/framework-plugin-deno) - CloudBase Framework Deno Plugin : Deno 应用一键部署工具
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ### 在线沙箱
@@ -239,6 +240,8 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 * [deno-seed](https://github.com/tamasszoke/deno-seed) - 完整的开发样板 🌱。
 * [deno-oak-mongo-demo](https://github.com/youngjuning/deno-oak-mongo-demo)。
+* [deno-cloud-app](https://github.com/TencentCloudBase/cloudbase-templates/tree/master/deno)- 可以通过 CLI 一键部署的 Deno 云应用模板
+
 
 ### 开发 Deno 模块
 
@@ -298,6 +301,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 > 专注于收集高质量的博客文章，更多内容可以在谷歌/百度上搜索。目前 Deno 文章不多，尽可能多的罗列不设内容质量限制。
 
+- [可能是首个支持部署 Deno 前后端应用的部署工具](https://zhuanlan.zhihu.com/p/189489957)：发布于 2020-08-19
 - [从零开发一款Deno插件并发布](https://juejin.im/post/6859771063480352776)：发布于 2020-08-12。
 - [基于 Deno 构建 HTTP Server 实践指南](https://juejin.im/post/6856447982905065486)：发布于 2020-08-03。
 - [Deno从入门到跑路](https://juejin.im/post/6854573220432248839)：发布于 2020-07-27。
