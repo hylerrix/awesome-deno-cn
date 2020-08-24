@@ -55,9 +55,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
 - [@denolib/qs](https://github.com/denolib/qs)：具有嵌套支持的 querystring 解析器。
 - [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
-- [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为camelCase：foo-bar→fooBar。
 - [@denolib/marked](https://github.com/denolib/marked/)：Markdown -> HTML 转换器。
-- [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
 - [@denofn/http-libs](https://github.com/denofn/http-libs)：HTTP 模块和类型。
 - [@denofn/jwt](https://github.com/denofn/jwt)：auth0/jsonwebtoken 的端口。
 - [@denofn/type-fest](https://github.com/denofn/type-fest)：基本 TypeScript 类型的集合（sindresorhus 端口/type-fest）。
