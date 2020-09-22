@@ -50,6 +50,24 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "binggg",
+      "name": "Booker Zhao",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7686861?v=4",
+      "profile": "http://bookerzhao.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "zhmushan",
+      "name": "木杉",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24505451?v=4",
+      "profile": "https://github.com/zhmushan",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

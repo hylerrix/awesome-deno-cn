@@ -1,7 +1,7 @@
 # Deno 资源全图谱 · 专注简中版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img src="http://qiniu.ningo.cloud/deno/awesome-deno-cn-logo.png" style="height: 88px; width: 88px;">
@@ -64,9 +64,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
 - [@denolib/qs](https://github.com/denolib/qs)：具有嵌套支持的 querystring 解析器。
 - [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为驼峰式；示例：foo-bar→fooBar。
-- [@denolib/camelcase](https://github.com/denolib/camelcase)：将破折号/点号/下划线/空格分隔的字符串转换为camelCase：foo-bar→fooBar。
 - [@denolib/marked](https://github.com/denolib/marked/)：Markdown -> HTML 转换器。
-- [@denolib/ms](https://github.com/denolib/ms)：轻松地将各种时间格式转换为毫秒。
 - [@denofn/http-libs](https://github.com/denofn/http-libs)：HTTP 模块和类型。
 - [@denofn/jwt](https://github.com/denofn/jwt)：auth0/jsonwebtoken 的端口。
 - [@denofn/type-fest](https://github.com/denofn/type-fest)：基本 TypeScript 类型的集合（sindresorhus 端口/type-fest）。
@@ -238,6 +236,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [vscode-deno](https://github.com/denoland/vscode_deno)：VS Code 扩展，使用 TypeScript Deno 语言服务插件提供 Deno 支持。
 - [Update Deno](https://github.com/marketplace/actions/update-deno)：Github Action，它将具有最新 Deno 版本的文件放入您的存储库。
 - [denofn-selfhosted](https://github.com/denofn/denofn-selfhosted)：使用 Deno 和 Docker 构建的自托管 Deno 函数。
+- [cloudbase-framework](https://github.com/TencentCloudBase/cloudbase-framework/tree/master/packages/framework-plugin-deno) - CloudBase Framework Deno Plugin : Deno 应用一键部署工具
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 </details>
@@ -260,6 +259,8 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 * [deno-seed](https://github.com/tamasszoke/deno-seed) - 完整的开发样板 🌱。
 * [deno-oak-mongo-demo](https://github.com/youngjuning/deno-oak-mongo-demo)。
+* [deno-cloud-app](https://github.com/TencentCloudBase/cloudbase-templates/tree/master/deno)- 可以通过 CLI 一键部署的 Deno 云应用模板
+
 
 ### 开发 Deno 模块
 
@@ -317,8 +318,12 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 ### 单篇文章（简中）
 
-> 专注于收集高质量的博客文章，更多内容可以在谷歌/百度上搜索。目前 Deno 文章不多，尽可能多的诺列不设内容质量限制。
+> 专注于收集高质量的博客文章，更多内容可以在谷歌/百度上搜索。目前 Deno 文章不多，尽可能多的罗列不设内容质量限制。
 
+- [可能是首个支持部署 Deno 前后端应用的部署工具](https://zhuanlan.zhihu.com/p/189489957)：发布于 2020-08-19
+- [从零开发一款Deno插件并发布](https://juejin.im/post/6859771063480352776)：发布于 2020-08-12。
+- [基于 Deno 构建 HTTP Server 实践指南](https://juejin.im/post/6856447982905065486)：发布于 2020-08-03。
+- [Deno从入门到跑路](https://juejin.im/post/6854573220432248839)：发布于 2020-07-27。
 - [听说要干掉 node.js？用Deno实现价值上亿的AI核心算法试一下](https://juejin.im/post/5ebcfe79e51d454def2279bc)：发布于 2020-05-14。
 - [了不起的 Deno 入门教程](https://mp.weixin.qq.com/s/2eqRTsf_z7Bcs6dziXe73Q)，发布于 2020-05-14。
 - [Deno 运行时入门教程：Node.js 的替代品](http://www.ruanyifeng.com/blog/2020/01/deno-intro.html)：🌟，发布于 2020-01-26。
@@ -512,11 +517,13 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/hylerrix"><img src="https://avatars1.githubusercontent.com/u/19285461?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hylerrix</b></sub></a><br /><a href="#ideas-hylerrix" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=hylerrix" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/JohannLai"><img src="https://avatars0.githubusercontent.com/u/10769405?v=4?s=100" width="100px;" alt=""/><br /><sub><b>JohannLai</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=JohannLai" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/champkeh"><img src="https://avatars3.githubusercontent.com/u/7316006?v=4?s=100" width="100px;" alt=""/><br /><sub><b>champ</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=champkeh" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/18510047382"><img src="https://avatars3.githubusercontent.com/u/45157599?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bd999</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=18510047382" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://youngjuning.js.org"><img src="https://avatars2.githubusercontent.com/u/13204332?v=4?s=100" width="100px;" alt=""/><br /><sub><b>杨俊宁</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=youngjuning" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/hylerrix"><img src="https://avatars1.githubusercontent.com/u/19285461?v=4" width="100px;" alt=""/><br /><sub><b>hylerrix</b></sub></a><br /><a href="#ideas-hylerrix" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=hylerrix" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/JohannLai"><img src="https://avatars0.githubusercontent.com/u/10769405?v=4" width="100px;" alt=""/><br /><sub><b>JohannLai</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=JohannLai" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/champkeh"><img src="https://avatars3.githubusercontent.com/u/7316006?v=4" width="100px;" alt=""/><br /><sub><b>champ</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=champkeh" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/18510047382"><img src="https://avatars3.githubusercontent.com/u/45157599?v=4" width="100px;" alt=""/><br /><sub><b>Bd999</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=18510047382" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://youngjuning.js.org"><img src="https://avatars2.githubusercontent.com/u/13204332?v=4" width="100px;" alt=""/><br /><sub><b>杨俊宁</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=youngjuning" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://bookerzhao.com"><img src="https://avatars2.githubusercontent.com/u/7686861?v=4" width="100px;" alt=""/><br /><sub><b>Booker Zhao</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=binggg" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/zhmushan"><img src="https://avatars1.githubusercontent.com/u/24505451?v=4" width="100px;" alt=""/><br /><sub><b>木杉</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=zhmushan" title="Documentation">📖</a></td>
   </tr>
 </table>
 
