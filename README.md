@@ -1,7 +1,7 @@
 # Deno 资源全图谱 · 专注简中版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img src="http://qiniu.ningo.cloud/deno/awesome-deno-cn-logo.png" style="height: 88px; width: 88px;">
@@ -525,6 +525,9 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
     <td align="center"><a href="https://youngjuning.js.org"><img src="https://avatars2.githubusercontent.com/u/13204332?v=4" width="100px;" alt=""/><br /><sub><b>杨俊宁</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=youngjuning" title="Documentation">📖</a></td>
     <td align="center"><a href="http://bookerzhao.com"><img src="https://avatars2.githubusercontent.com/u/7686861?v=4" width="100px;" alt=""/><br /><sub><b>Booker Zhao</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=binggg" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/zhmushan"><img src="https://avatars1.githubusercontent.com/u/24505451?v=4" width="100px;" alt=""/><br /><sub><b>木杉</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=zhmushan" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://keelii.com/"><img src="https://avatars0.githubusercontent.com/u/458894?v=4" width="100px;" alt=""/><br /><sub><b>kily zhou</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=keelii" title="Documentation">📖</a></td>
   </tr>
 </table>
 
