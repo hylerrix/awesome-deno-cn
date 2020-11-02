@@ -106,6 +106,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [denodb](https://github.com/eveningkid/denodb)：适用于 Deno 的 MySQL、SQLite、MariaDB、PostgreSQL 和 MongoDB ORM。
 - [dso](https://github.com/manyuanrong/dso)：一个基于 MySQL 的简单 ORM 库。
 - [deno-nessie](https://github.com/halvardssm/deno-nessie)：为 PostgreSQL、MySQL 和 SQLite 创建，迁移和回滚迁移。
+- [cotton](https://rahmanfadhil.github.io/cotton)：数据库（暂时实现PostgreSQL、MySQL 和 SQLite）管理(迁移和ORM等)工具。
 
 #### 包管理
 
