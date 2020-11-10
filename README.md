@@ -1,7 +1,7 @@
 # Deno 资源全图谱 · 专注简中版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <img src="http://qiniu.ningo.cloud/deno/awesome-deno-cn-logo.png" style="height: 88px; width: 88px;">
@@ -552,6 +552,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
   </tr>
   <tr>
     <td align="center"><a href="https://keelii.com/"><img src="https://avatars0.githubusercontent.com/u/458894?v=4" width="100px;" alt=""/><br /><sub><b>kily zhou</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=keelii" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://guzhongren.github.io/"><img src="https://avatars2.githubusercontent.com/u/8743692?v=4" width="100px;" alt=""/><br /><sub><b>guzhongren</b></sub></a><br /><a href="https://github.com/hylerrix/awesome-deno-cn/commits?author=guzhongren" title="Documentation">📖</a></td>
   </tr>
 </table>
 
