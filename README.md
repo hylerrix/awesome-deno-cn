@@ -1,4 +1,4 @@
-# Deno 资源全图谱 · 专注简中版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Deno 资源全图谱 · 专注中文版 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
@@ -10,17 +10,18 @@
 
 ## 为什么有这个项目？
 
-Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于简中技术圈的 Deno 资源列表呼之欲出。
+Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于中文技术圈的 Deno 资源列表呼之欲出。
 
 以下资源 🌟 代表品质推荐（尚未正式开始标记），⚠️ 代表注意事项。由于资源分类的多样性考虑，部分章节内容可能会有所重复。
 
-### 独特之处
+### 独特之处 🦖🦕
 
 - [x] 长期提供更新，收集越来越多高质量的 Deno 资源，愿我们与 Deno 一起成长。
 - [x] 随着 Deno 主版本进行版本归档更新。
 - [x] 配套独家[《Deno 钻研之术》](https://github.com/hylerrix/deno-tutorial)电子书并随着本项目一起成长。
+- [ ] 配套独家[《Deno 周刊》](https://github.com/hylerrix/deno-weekly)并随着本项目一起成长。
 - [x] 及时跟进 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库。
-- [ ] 使用更好看的 UI 页面来展示这个资源列表 -> 如果将每个条目“JSON“化就更好了。
+- [ ] 使用 Pagic 来让此资源清单更好看 -> 如果将每个条目“JSON“化就更好了。
 - [ ] 将所有资源能用代码绘制出一副图（如思维导图）更好了。
 
 还有如下很多事情可以做，期待你的贡献！
@@ -34,13 +35,13 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 ## 技术文档 🌟
 
 - [deno.land](https://deno.land)：Deno 官网。
-  - 简中：[denolang.cn](https://denolang.cn)。
+  - 中文：[denolang.cn](https://denolang.cn)。
 - [deno.land/manual](https://deno.land/manual)：Deno 手册。
-  - 简中：[nugine.github.io/deno-manual-cn](https://nugine.github.io/deno-manual-cn)。
-  - 简中：[manual.deno.js.cn/](https://manual.deno.js.cn/)。
-  - 简中：[denolang.cn/manual](https://denolang.cn/manual)。
+  - 中文：[nugine.github.io/deno-manual-cn](https://nugine.github.io/deno-manual-cn)。
+  - 中文：[manual.deno.js.cn/](https://manual.deno.js.cn/)。
+  - 中文：[denolang.cn/manual](https://denolang.cn/manual)。
 - [doc.deno.land](https://doc.deno.land)：Deno API 文档。
-  - 简中：[deno.dev/typedoc](https://deno.dev/typedoc)
+  - 中文：[deno.dev/typedoc](https://deno.dev/typedoc)
 - [deno.land/x](https://deno.land/x)：DenoX 第三方库。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
@@ -63,13 +64,17 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 注：单纯的字典排序让人眼花缭乱，此章节待进行细致化的分类，欢迎贡献 PR!
 
-#### Web 框架
+#### Web 框架 - 后端
 
 - [abc](https://github.com/zhmushan/abc)：一个不错的 Deno Web 框架。
 - [alosaur](https://github.com/alosaur/alosaur)：具有许多装饰器的 Deno Web 框架。
 - [aqua](https://github.com/l2ig/aqua)：用于 Deno 的小又快的 Web 框架。
 - [pogo](https://github.com/sholladay/pogo)：一个 Deno 服务端框架。
 - [drash](https://github.com/drashland/deno-drash)：零依赖性的 Deno HTTP 服务器的 REST 微框架。
+
+#### Web 框架 - 前端
+
+- [alephjs](https://github.com/alephjs/aleph.js)：Deno 下的 React 框架。
 
 #### 环境变量
 
@@ -118,6 +123,11 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [dvm](https://github.com/justjavac/dvm)：Deno 版本管理器：管理多个活动的 Deno 版本。
 - [dvm](https://github.com/axetroy/dvm)：没有运行时相关性的 Deno 版本管理器。
 - [dvm.cmd](https://github.com/MarkTiedemann/dvm.cmd)：Windows 版 Deno 版本管理器，作为单个批处理文件编写。
+- [trex](https://github.com/crewdevio/Trex)：像 npm 一样的 deno 软件包管理。
+- [esm.sh](https://github.com/postui/esm.sh)：一个快速、全球性的ES 模块内容交付网络。
+- [skypack](https://www.skypack.dev): Load optimized npm packages with no install and no build tools.
+- [jspm](https://jspm.org/): jspm provides a module CDN allowing any package from npm to be directly loaded
+in the browser and other JS environments as a fully optimized native JavaScript module.
 
 #### WebSocket
 
@@ -144,6 +154,14 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 #### IDE 插件
 
 - [vscode-deno](https://github.com/justjavac/vscode-deno)：VS Code 扩展，使用 typescript-deno-plugin 对 Deno 提供支持。
+
+### JAM Stack/静态站点
+
+- [pagic](https://github.com/xcatliu/pagic)：用 Deno 构建从 markdown 生成静态 html 页面的简单方法。
+
+#### 从 Node 到 Deno
+
+- [denoify](https://github.com/garronej/denoify)：对于希望支持 Deno 但不想编写和维护端口的 NPM 模块作者。
 
 #### 尚未分类 - 社区
 
@@ -242,7 +260,6 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [clone](https://github.com/ekaragodin/clone)：一个方便克隆的简单实用程序。
 - [dedep](https://github.com/egoist/dedep)：管理依赖版本。
 - [denoget](https://github.com/syumai/denoget)：Deno 获取安装的可执行 Deno 脚本。
-- [denoify](https://github.com/garronej/denoify)：对于希望支持 Deno 但不想编写和维护端口的 NPM 模块作者。
 - [denoinit](https://github.com/syumai/deno-libs/tree/master/denoinit)：Denoinit 为 Deno 项目生成有用的文件。
 - [denoliver](https://github.com/joakimunge/denoliver)：具有实时重新加载功能的简单，无依赖的文件服务器。
 - [denomander](https://github.com/siokas/denomander)：Deno 命令行界面的灵感来自 commander.js。
@@ -256,11 +273,9 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [dev_server](https://github.com/zhmushan/dev_server)：让 TypeScript 文件直接在 script 标签中使用。
 - [elm-live-reload](https://github.com/jinjor/deno-playground/tree/master/elm-live-reload)：一个用 Deno 编写的 Elm Live Reloader。
 - [packer-provisioner-deno](https://github.com/dontlaugh/packer-provisioner-deno)：一个 Packer 插件，可轻松使用 Deno 脚本构建虚拟机映像。
-- [pagic](https://github.com/xcatliu/pagic)：用 Deno 构建从 markdown 生成静态 html 页面的简单方法。
 - [pika Deno plugin](https://github.com/pikapkg/builders/tree/master/packages/plugin-build-deno/)
 - [starter](https://github.com/denorg/starter)：带有 GitHub Actions CI 的 Deno 模块入门模板。
 - [deno-task-runner](https://github.com/jinjor/deno-task-runner)：像 NPM 脚本一样编写任务。
-- [trex](https://github.com/crewdevio/Trex)：像 npm 一样的 deno 软件包管理。
 - [typescript-deno-plugin](https://github.com/justjavac/typescript-deno-plugin)：Deno 语言服务插件，在编辑器中的 TypeScript 文件中提供智能感知。
 - [deno-udd](https://github.com/hayd/deno-udd)：更新面依赖：将导入语句更新为最新发布的版本。
 - [velociraptor](https://github.com/umbopepato/velociraptor)：Deno 的 npm 风格脚本运行器。
@@ -308,7 +323,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 ## 技术教程
 
-### 学习网站（简中）
+### 学习网站（中文）
 
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
@@ -317,7 +332,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 * [https://denobeginner.com](https://denobeginner.com)
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 技术专栏（简中）
+### 技术专栏（中文）
 
 - [juejin.im/tag/deno](https://juejin.im/tag/deno)：掘金标签。
 - [Deno 开发者社区](https://zhuanlan.zhihu.com/denodev)：知乎专栏。
@@ -330,7 +345,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [freecodecamp.org/news/tag/deno](https://www.freecodecamp.org/news/tag/deno)：freeCodeCamp 标签。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 系列文章（简中）
+### 系列文章（中文）
 
 > 目前包括可能会写成电子书的资源。
 
@@ -344,7 +359,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [Deno 源码贡献指南（英文版）](https://denolib.gitbook.io/guide):托管于 Gitbook 上。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 单篇文章（简中）
+### 单篇文章（中文）
 
 > 专注于收集高质量的博客文章，更多内容可以在谷歌/百度上搜索。目前 Deno 文章不多，尽可能多的罗列不设内容质量限制。
 
@@ -393,14 +408,14 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [Ryan Dahl’s Node.js regrets lead to Deno](https://www.infoworld.com/article/3283250/ryan-dahls-nodejs-regrets-lead-to-deno.html)：发布于 2018-06-21。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 翻译文章（简中）
+### 翻译文章（中文）
 
-> 这里专门抽来出来简中文章中，是翻译自其它语言（如英语）的文章。
+> 这里专门抽来出来中文文章中，是翻译自其它语言（如英语）的文章。
 
 - [Deno 1.0 即将发布，你需要知道的都在这里了](https://mp.weixin.qq.com/s/YZ39X_-nij-8Hl8vwsFBJA)：原文发布于 2020-05-06 日。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 演讲稿（简中）
+### 演讲稿（中文）
 
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
@@ -427,7 +442,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [Ryan Dahl & Kitson Kelly:  Deno 是一种新的 JavaScript 方法 | TSConf 2019](https://www.youtube.com/watch?v=1gIiZfSbEAE)
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 在线视频（简中）
+### 在线视频（中文）
 
 - [Bilibilii | 【中英双语】Node 之父 - Deno，一个新的 JS 运行时](https://www.bilibili.com/video/BV124411Y74C)。
 - [Deno 1.0 新特性了解一下](https://www.bilibili.com/video/BV14C4y1H76e)。
@@ -443,7 +458,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 > 专注收集公开免费的 PDF、PNG 以及电子书等资源，放置在本项目的 resources 文件夹下。
 
 - [《Node.js 的设计缺陷（英文版）》](./resources/design-mistakes-in-node.pdf)。
-- [《Node.js 的设计缺陷（简中版）》](./resources/design-mistakes-in-node-zh.pdf)。
+- [《Node.js 的设计缺陷（中文版）》](./resources/design-mistakes-in-node-zh.pdf)。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ## 技术社区
@@ -461,14 +476,14 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 ### 社区列表（全网）
 
-- [Deno Discord](https://discord.gg/TGMHGv6)：🌟，Discord 上的 Deno 官方聊天室，有简中社区。
+- [Deno Discord](https://discord.gg/TGMHGv6)：🌟，Discord 上的 Deno 官方聊天室，有中文社区。
 - [deno.dev](https://deno.dev)：🌟，开发中。
-- [deno.js.cn](https://deno.js.cn)：🌟，Deno 简中社区。
-- [denocn.org](https://denocn.org)：🌟，Deno 简中社区。
+- [deno.js.cn](https://deno.js.cn)：🌟，Deno 中文社区。
+- [denocn.org](https://denocn.org)：🌟，Deno 中文社区。
 - [yydeno](https://github.com/yydeno)：YY 大前端团队 Deno 仓库。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
-### 讨论热帖（简中）
+### 讨论热帖（中文）
 
 - [Deno 会在短期内取代 Node 吗？](https://www.v2ex.com/t/674250)：发布于 2020-05-22。
 - [@v2ex/Deno 1.0](https://v2ex.com/t/671449)：发布于 2020-05-13。
@@ -504,7 +519,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 ### 从 Node.js 到 Deno.js
 
 - [《Node.js 的设计缺陷》](http://tinyclouds.org/jsconf2018.pdf)：官方 PDF 演讲稿。
-- [《Design Mistakes in Node》Node 之父 Ryan Dahl 演讲 PPT 简中版 (2018 JS Conf Berlin)](https://zhuanlan.zhihu.com/p/37637923)：发布于 2018-06-03。
+- [《Design Mistakes in Node》Node 之父 Ryan Dahl 演讲 PPT 中文版 (2018 JS Conf Berlin)](https://zhuanlan.zhihu.com/p/37637923)：发布于 2018-06-03。
 - ...逐步添加中，欢迎 Star & Fork & PR。
 
 ### Deno 依赖的技术清单
@@ -521,17 +536,23 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 
 ### 仓库更新日志
 
-- [x] 2020-04-14 初始化本项目，填充独特的简中版内容。
+- [x] 2020-04-14 初始化本项目，填充独特的中文版内容。
 - [x] 2020-04-14 跟进最新的（180+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno) 仓库内容。
 - [x] 2020-05-13 新增《Deno 钻研之术》项目，将本项目作为前者的配套项目。
 - [x] 2020-05-14 同步最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库内容。
-- [x] 2020-05-17 跟进简中化后大改版的（200+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
+- [x] 2020-05-17 跟进中文化后大改版的（200+ Star） [@olivewind/awesome-deno-cn](https://github.com/olivewind/awesome-deno-cn) 仓库内容。
 - [x] 2020-05-22 全网大量搜索 Deno 中英文资源并入库，发布 v1.0 版本并收录在[《Deno 钻研之术》](https://github.com/denolib/awesome-deno)第二篇中。
 - [x] 2020-08-07 大幅更新：
   - [x] 跟随 Deno 主版本号同步发布 v1.2.2 版本
   - [x] 新增 all-contributor 贡献者机器人
   - [x] 增加如下章节：Deno 版本日志、解决方案
   - [x] 填充大量内容，新增贡献准则
+- [ ] 2020-12-xx 大幅更新
+  - [ ] 引入 Pagic 来展示此资源清单
+  - [ ] 增加“替代品”介绍，来让用户从 node 的知名框架迁移时能快速找到替代品
+  - [ ] 跟随 Deno 主版本号同步发布 v1.5.x 版本
+  - [ ] 同步最新的 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 内容
+  - [ ] 全网大量搜索 Deno 中英文资料并入库
 
 ## 贡献者 ✨
 
