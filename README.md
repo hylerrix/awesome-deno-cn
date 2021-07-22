@@ -24,7 +24,6 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 - [x] 长期提供更新，收集越来越多高质量的 Deno 资源，愿我们与 Deno 一起成长。
 - [x] 随着 Deno 主版本进行版本归档更新。
 - [x] 配套独家[《Deno 钻研之术》](https://github.com/hylerrix/deno-tutorial)电子书并随着本项目一起成长。
-- [x] 配套独家[《Deno 月刊》](https://github.com/hylerrix/deno-feedly)并随着本项目一起成长。
 - [x] 及时跟进 [@denolib/awesome-deno](https://github.com/denolib/awesome-deno) 仓库。
 - [ ] 寻找静态站点生成工具来让此资源清单更好看 -> 如果将每个条目“JSON“化就更好了。
 
