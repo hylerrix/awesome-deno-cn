@@ -37,7 +37,7 @@ Deno v1.0 于 2020 年 05 月 13 日正式发布 v1.0 版本，一个专注于�
 ## 技术文档 🌟
 
 - [deno.land](https://deno.land)：Deno 官网。
-  - 中文：[https://deno-cn.vercel.app/](https://deno-cn.vercel.app/)。🌟。
+  - 中文：[https://denoland-cn.deno.dev](https://denoland-cn.deno.dev)。🌟。
   - 中文：[denolang.cn](https://denolang.cn)。⚠️ 访问不了了。
 - [deno.land/manual](https://deno.land/manual)：Deno 手册。
   - 中文：[deno-cn.vercel.app/manual](https://deno-cn.vercel.app/manual)。
